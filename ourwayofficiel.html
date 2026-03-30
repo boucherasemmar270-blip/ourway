@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ourway Audition</title>
+
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+/* 🌍 GENERAL STYLE */
+body {
+    margin: 0;
+    font-family: 'Changa One', sans-serif;
+    background: linear-gradient(#9DACCC, #C0C9D8);
+    text-align: center;
+}
+
+/* 🔝 HEADER */
+header {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    background-color: #384C65;
+    color: white;
+}
+
+/* 🖼️ LOGO */
+header .logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* 🟩 CARD */
+.card {
+    background-color: #485F88;
+    margin: 40px auto;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* IMAGE FULL CARD */
+.card img.full-card-image {
+    width: 100%;       /* full width of the card */
+    height: auto;      /* maintain proportions */
+    display: block;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(#384C65);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 20px;
+    }
+    .card {
+        margin: 20px auto;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="c:\Users\Any User\Downloads\photo_2026-03-30_21-11-45_processed.png" alt="Logo" class="logo"> <!-- Replace with your logo -->
+    OURWAY OFFICIAL AUDITION SITE
+</header>
+
+<!-- MEMBER CARD -->
+<div class="card" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdWVu5sH23aVYZMtJPwEWpW708ULJtpp6YJgohK2eNSXAqZBQ/viewform?usp=header', '_blank')">
+    <img src="c:\Users\Any User\Downloads\AUDITION.png" alt="Audition Member" class="full-card-image"> <!-- Your 80x40px image -->
+</div>
+
+<!-- BLANDER CARD -->
+<div class="card" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfClH_KWZT-zJb8Vm3Gs62aNWziwQOL69Y9NCvd3dXHlgxK1w/viewform?usp=header', '_blank')">
+    <img src="c:\Users\Any User\Downloads\BLANDER.png" alt="Audition Blander" class="full-card-image"> <!-- Your 80x40px image -->
+</div>
+
+<!-- FOOTER -->
+<footer>
+    @ourway_band
+</footer>
+
+</body>
+</html>
